@@ -7,8 +7,9 @@
 
 int main() {
 
- char cidade1[3], cidade2[3], cidade3[3], cidade4[3], cidade5[3], cidade6[3]; 
- int populaçao;
+ char cidade1[20], cidade2[20], cidade3[20], cidade4[20], cidade5[20], cidade6[20]; 
+ int pop;
+
 /* Mensagem de Apresentação do Jogo Trunfo*/
 printf("Olá, Seja Bem-Vindo ao Super Truco com Países");
 printf("Escolha uma cidade abaixo:\n");
@@ -16,11 +17,12 @@ printf("Escolha uma cidade abaixo:\n");
 printf("A01, A02, B01, B02\n");
 scanf("%s", &cidade1);
 
-
-printf("Informe a População");
-printf("Informe a Área da");
-printf("Informe o PIB da");
-printf("Informe o Número de Pontos Turísticos da");
+printf("Agora vamos definir as propriedades da cidade: %s\n", &cidade1);
+printf("Informe a População\n");
+scanf("%d", &pop);
+printf("Informe a Área da\n");
+printf("Informe o PIB da\n");
+printf("Informe o Número de Pontos Turísticos da\n");
 
 
     return 0;
