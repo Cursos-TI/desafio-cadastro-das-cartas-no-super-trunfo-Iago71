@@ -21,13 +21,13 @@ scanf("%s", &cidade1);
 
 /* Aqui será definido as Propriedadas da Cidade Escolhida*/
 printf("Agora vamos definir as propriedades da cidade: %s\n", &cidade1);
-printf("Informe a População\n");
+printf("Defina a População\n");
 scanf("%d", &pop);
-printf("Informe a Área\n");
+printf("Defina a Área\n");
 scanf("%f", &area);
-printf("Informe o PIB\n");
+printf("Defina o PIB\n");
 scanf("%f", &pib);
-printf("Informe o Número de Pontos Turísticos\n");
+printf("Defina o Número de Pontos Turísticos\n");
 scanf("%d", &pontosturisticos);
 
 
