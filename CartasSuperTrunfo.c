@@ -36,8 +36,8 @@ scanf("%d", &pontosturisticos);
 
 
 /* Aqui será finalizado apresentando os dados da Cidade*/
-printf("\n");
-printf("Parabéns, as propriedades da cidade %s foram criadas com sucesso!\n", cidade1);
+//printf("\n");
+printf("Parabéns! as propriedades da cidade %s foram criadas com sucesso!\n", cidade1);
 
 printf("Código da Carta: %s01\n", estado);
 printf("Cidade: %s\n",cidade1); 
