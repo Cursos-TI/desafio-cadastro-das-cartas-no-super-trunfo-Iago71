@@ -1,3 +1,6 @@
+
+
+
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
@@ -9,7 +12,7 @@ int main() {
 
  char cidade1[50], estado[50], codigodaCarta[50], cidade4[20], cidade5[20], cidade6[20]; 
  int pop, pontosturisticos;
- float area, pib;
+ float area, pib, Dpopulacional, pibcapita;
 
 /* Mensagem de Apresentação do Jogo Trunfo*/
 printf("Olá, Seja Bem-Vindo ao Super Truco com Países\n");
@@ -34,16 +37,23 @@ scanf("%f", &pib);
 printf("Defina o Número de Pontos Turísticos\n");
 scanf("%d", &pontosturisticos);
 
+Dpopulacional = pop / area;
+pibcapita = pib / pop;
 
+printf("pop: %f\n",Dpopulacional); 
+printf("perc: %f\n",pibcapita); 
 /* Aqui será finalizado apresentando os dados da Cidade*/
 //printf("\n");
+
+
+
 printf("Parabéns! as propriedades da cidade %s foram criadas com sucesso!\n", cidade1);
 
 printf("Código da Carta: %s01\n", estado);
 printf("Cidade: %s\n",cidade1); 
 printf("População: %d\n",pop); 
-printf("Area: %f\n",area); 
-printf("PIB: %f\n",pib); 
+printf("Area: %.3f\n",area); 
+printf("PIB: %.3f\n",pib); 
 printf("PIB: %d\n",pontosturisticos); 
 
 /*
