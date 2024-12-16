@@ -37,11 +37,11 @@ scanf("%f", &pib);
 printf("Defina o Número de Pontos Turísticos\n");
 scanf("%d", &pontosturisticos);
 
+/* Aqui será Realizado o calculo da Densidade Populacional e o PIB per Capita*/
 Dpopulacional = pop / area;
 pibcapita = pib / pop;
 
-printf("pop: %f\n",Dpopulacional); 
-printf("perc: %f\n",pibcapita); 
+
 /* Aqui será finalizado apresentando os dados da Cidade*/
 //printf("\n");
 
@@ -54,8 +54,10 @@ printf("Cidade: %s\n",cidade1);
 printf("População: %d\n",pop); 
 printf("Area: %.3f\n",area); 
 printf("PIB: %.3f\n",pib); 
-printf("PIB: %d\n",pontosturisticos); 
+printf("Pontos Turisticos: %d\n",pontosturisticos); 
 
+printf("Densidade Populacional: %.2f\n",Dpopulacional); 
+printf("Pib Per Capita: %.2f\n",pibcapita); 
 /*
 printf("Cidade: %s - População: %d - Area: %f\n", cidade1, pop,area);
 printf("PIB: %f - Pontos Turísticos: %d\n", pib, pontosturisticos);
